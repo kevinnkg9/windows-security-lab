@@ -1,64 +1,107 @@
 # Windows Security Lab
 
-## Overview
+A hands-on cybersecurity portfolio demonstrating Windows Security Event investigations using native Windows logging tools and real-world incident response methodologies.
 
-This repository documents my hands-on Windows security lab as I prepare for a career as a Security Operations Center (SOC) Analyst.
-
-The goal of this lab is to develop practical skills in Windows security, event log analysis, incident investigation, PowerShell, authentication monitoring, and endpoint security.
-
-Each lab focuses on a real Windows security concept that a Tier 1 SOC Analyst may encounter in a production environment.
+This repository documents my journey as I develop Security Operations Center (SOC) analyst skills through practical investigations, professional documentation, and evidence-based analysis.
 
 ---
 
-## Objectives
+# Project Objectives
 
-- Learn Windows Security Event Logs
-- Investigate authentication activity
-- Analyze Windows Event IDs
-- Practice basic incident response
-- Develop PowerShell skills
-- Improve Windows security knowledge
-- Build a professional cybersecurity portfolio
+The goals of this project are to:
+
+- Develop hands-on Windows security investigation skills
+- Learn how to analyze Windows Security Events
+- Practice documenting incidents using professional reporting standards
+- Build a public cybersecurity portfolio for SOC positions
+- Improve familiarity with Windows internals and authentication processes
 
 ---
 
-## Labs
+# Tools Used
+
+- Windows 11 Pro
+- Windows Event Viewer
+- Windows Security Logs
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+# Skills Demonstrated
+
+- Windows Security Log Analysis
+- Authentication Event Analysis
+- Process Creation Investigation
+- Parent-Child Process Analysis
+- Incident Documentation
+- Event Correlation
+- Evidence Collection
+- Root Cause Analysis
+
+---
+
+# Investigation Labs
 
 | Lab | Topic | Status |
 |------|-------|--------|
-| 01 | Failed Logon Investigation (Event ID 4625) | 🚧 In Progress |
-| 02 | Successful Logons (Event ID 4624) | Planned |
-| 03 | Account Lockouts | Planned |
-| 04 | Process Creation (Event ID 4688) | Planned |
-| 05 | PowerShell Logging | Planned |
-| 06 | Windows Defender Events | Planned |
-| 07 | User & Group Management | Planned |
+| WS-001 | Failed Logon Investigation (Event ID 4625) | ✅ Complete |
+| WS-002 | Successful Logon Investigation (Event ID 4624) | ✅ Complete |
+| WS-003 | Command Prompt Process Investigation (Event ID 4688) | ✅ Complete |
+| WS-004 | Local User Account Investigation | 🔄 Planned |
+| WS-005 | Scheduled Task Investigation | 🔄 Planned |
+| WS-006 | Windows Services Investigation | 🔄 Planned |
+| WS-007 | PowerShell Investigation | 🔄 Planned |
+| WS-008 | USB Device Investigation | 🔄 Planned |
 
 ---
 
-## Skills Demonstrated
+# Repository Structure
 
-- Windows Event Viewer
-- Security Event Analysis
-- Authentication Investigation
-- Incident Documentation
-- PowerShell
-- Windows Administration
-- Git & GitHub
-
----
-
-## Future Additions
-
-- Sysmon
-- Microsoft Defender
-- Wireshark
-- Splunk
-- Wazuh
-- Sigma Rules
+```text
+windows-security-lab/
+│
+├── README.md
+├── LICENSE
+└── Labs/
+    ├── WS-001-Failed-Logon-Investigation/
+    ├── WS-002-Successful-Logon-Investigation/
+    ├── WS-003-Command-Prompt-Process-Investigation/
+```
 
 ---
 
-## Disclaimer
+# Current Progress
 
-All activities performed in this repository are conducted in a controlled lab environment for educational purposes.
+- ✅ Windows Authentication Events
+- ✅ Process Creation Events
+- 🔄 Account Management Events
+- 🔄 Scheduled Tasks
+- 🔄 Windows Services
+- 🔄 PowerShell Logging
+- 🔄 Sysmon
+- 🔄 Splunk
+
+---
+
+# Future Goals
+
+As this repository grows, future investigations will include:
+
+- Sysmon Event Analysis
+- Microsoft Defender Logs
+- Splunk SIEM Investigations
+- PowerShell Logging
+- Windows Registry Investigations
+- Malware Persistence Techniques
+- Lateral Movement Detection
+- Incident Response Case Studies
+
+---
+
+# About Me
+
+I am currently pursuing a Bachelor's degree in Cybersecurity while building practical SOC analyst skills through hands-on labs and investigation projects.
+
+This repository serves as a public portfolio documenting my continuous learning and development in Windows security monitoring, incident response, and threat detection.
